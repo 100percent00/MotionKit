@@ -20,7 +20,7 @@ html,body{height:100%;margin:0;padding:0;overflow:hidden;background:transparent}
 body{display:flex;justify-content:center;align-items:center;-webkit-tap-highlight-color:transparent}
 :root{--lp:0%;--lx:50%;--ly:50%}
 body{user-select:none;-webkit-user-select:none}
-.lenticular{position:relative;width:min(390px,90vw,calc(92vh*0.7500));aspect-ratio:3 / 4;perspective:1200px;cursor:ew-resize;touch-action:none}
+.lenticular{position:relative;width:min(600px,90vw,calc(92vh*0.7500));aspect-ratio:3 / 4;perspective:1200px;cursor:ew-resize;touch-action:none}
 .lent-card{position:absolute;inset:0;overflow:hidden;transform-style:preserve-3d;will-change:transform;transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .32s cubic-bezier(.2,.75,.25,1);border-radius:0;background:transparent;box-shadow:none}
 .lenticular.moving .lent-card{transition:transform .055s linear}
 .lent-layer{position:absolute;inset:0;will-change:opacity,transform;transition:opacity .08s linear,transform .12s linear}
